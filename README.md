@@ -74,9 +74,9 @@ proxmox_password = "SUA_SENHA"
 node_name        = "SEU_NODE"
 base_template_id = 100
 node_address     = "192.168.1.100"
-disk_datastore      = "vms2"
-cloudinit_datastore = "vms2"
-ssh_public_key      = "/home/ubuntu/.ssh/k8scluster/k8s.pub"
+disk_datastore      = "local"
+cloudinit_datastore = "local"
+ssh_public_key      = "/home/ubuntu/.ssh/terra.pub"
 
 vms = {
   VM-1 = { vm_id = 111, cpu_cores = 2, cpu_type = "host", memory_mb = 2048, disk_size = 30, ipv4_address = "192.168.1.111/24" }
